@@ -1,2 +1,3 @@
 # IELTS
-This project helps you to calculate the IELTS scores.
+> [!NOTE]
+> This project helps you to calculate the IELTS scores.:wink:
