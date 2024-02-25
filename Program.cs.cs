@@ -2,7 +2,7 @@
 {
     static void Main()
     {
-        while (1)
+        while (true)
         {
             Console.Clear();
             Console.WriteLine("\t* Welcome to my project *\n      --- IELTS Score Calculator ---\nEnter your scores >>> ");
@@ -54,12 +54,12 @@
             }
             Console.WriteLine("Do you want to recalculate? (1-Yes, 0-No): ");
             int retry = Convert.ToInt32(Console.ReadLine());
-            if (retry == 1)
-                goto home;
-            else if (retry == 0)
+            if (retry == 0)
+            {
                 Console.Clear();
                 Console.WriteLine($"Thanks, {name}! Bye!");
-                break
+                break;
+            }
         }
     }
 }
